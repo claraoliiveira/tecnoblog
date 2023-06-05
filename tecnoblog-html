@@ -1,0 +1,78 @@
+
+<!DOCTYPEs html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>TecBlog - O seu Blog de Tecnolgia</title>
+</head>
+<body>
+
+	<div id="area-cabecalho">
+		<div id="area-logo">
+			<h1>Tec<span class="branco">Blog</span></h1>
+		</div>
+		<div id="area-menu">
+			<a href="index.html">Home</a>
+			<a href="jogos.html">Jogos</a>		
+			<a href="celulares.html">Celulares</a>
+			<a href="informatica.html">Informática</a>
+			<a href="eletronicos.html">Eletrônicos</a>			
+		</div>
+	</div>
+
+	<div id="area-principal">
+		<div id="area-postagem">
+
+			<!-- abertura postagem-->
+			<div class="postagem">
+				<h2>Titulo da Postagem 1</h2>
+				<span class="data-postagem">postado em: 20 de março de 2022</span>
+				<img width="600px" src="imagem/imagem1.jpg">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec ullamcorper massa. Quisque ut nisi a velit cursus eleifend a eget turpis.
+				</p>
+				<a href="">Leia Mais...</a>
+			</div><!-- fechamento postagem-->
+
+			<!-- abertura postagem-->
+			<div class="postagem">
+				<h2>Titulo da Postagem 1</h2>
+				<span class="data-postagem">postado em: 10 de março de 2022</span>
+				<img width="600px" src="imagem/imagem2.jpg">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec ullamcorper massa. Quisque ut nisi a velit cursus eleifend a eget turpis.
+				</p>
+				<a href="">Leia Mais...</a>
+			</div><!-- fechamento postagem-->
+
+		</div>
+
+		<div id="area-lateral">
+			<div class="conteudo-lateral">
+				<h3>Postagens Recentes</h3>
+				<div class="postagem-lateral">
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.	
+					</p>
+					<a href="">Leia Mais...</a>
+				</div>	
+				<div class="postagem-lateral" style="border-bottom: none;">
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.	
+					</p>
+					<a href="">Leia Mais...</a>
+				</div>	
+
+			</div>
+			
+		</div>	
+		
+		<div id="rodape">
+			Todos os direitos reservados.
+			
+		</div>
+	</div>
+
+	
+</body>
+</html>
